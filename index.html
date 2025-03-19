@@ -1,0 +1,35 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Hangman</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!--Gameboard-->
+        <div id="gameBoard">
+            <h2 id="guessTracker"></h2>
+            <!--hangman image container-->
+            <div id="hangman-container">
+                <img id="hangman" src="images/1.png">
+                <div id="word-container">
+
+                </div>
+            </div>
+            
+            <div id="gameConsole">
+                <h3>Guess A Letter</h3>
+                <form>
+                    <input type="text" id="letter" name="letter" value="a"><br><br>
+                    <button onclick="submitLetter()"type="button">Submit<ibutton>
+                  </form>
+
+            </div>
+
+        </div>
+
+        <!--script needs to be the last thing in the body-->
+        <script src="app.js"></script>
+    </body>
+</html>

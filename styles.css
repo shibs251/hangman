@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+    background-color: black;
+}
+
+#gameBoard {
+    height: 75%;
+    width: 75%;
+    background-color: white;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#guessTracker {
+    margin-left: 30px;
+    height:30px;
+    width: 100%;
+}
+
+#hangman-container {
+    height:75%;
+    width: 100%;
+    border-bottom: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#word-container {
+    height:25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#hangman {
+    height: 50%;
+    width: auto;
+}
+
+.letter {
+    width:32px;
+    height:32px;
+    border:solid black 1px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+#gameConsole {
+    height: 25%;
+    width: 100%;
+    background-color: red;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
